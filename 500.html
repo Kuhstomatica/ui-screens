@@ -22,10 +22,41 @@
     <!-- <link rel="stylesheet" href="/assets/landlord/frontend/css/rtl.css"> -->
 </head>
 <body>
+    <style>
+    
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+         a span:hover{
+        text-decoration: underline;
+    }
+    h3{
+        font-weight: 600;
+    }
+    </style>
     <!-- 500 Area Starts -->
     <section class="single-page-area padding-top-100 padding-bottom-50">
         <div class="container container-one">
             <!-- content -->
+            <div class="popup">
+
+                <div>
+                    <img src="/assets/images/Group 1309.png" class="img-fluid" alt="">
+                </div>
+                <div class="text-center">
+                    <h3 class="text-primary mb-4">
+                        Internal Server Error
+                    </h3>
+                    <p class="mb-4">
+                        Something went wrong at our end. Don’t worry, it’s not you, it’s us
+                    </p>
+                    <a href="#" class="text-primary"><span>Go back</span></a>
+                </div>
+            </div>
         </div>
     </section>
     <!-- 500 Area end -->
